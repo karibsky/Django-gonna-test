@@ -1,0 +1,106 @@
+* {
+	padding: 0;
+	margin: 0px;
+	border:0;
+	outline: none;
+}
+
+.navbar-custom { 
+	background-color: #252628;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+	border-radius:0px !important;
+	border-bottom: none;
+	margin: 0;
+}
+
+.navbar-custom a { 
+	color: #fff;
+}
+
+.navbar-custom .navbar-nav > li > a:hover { 
+	color: #000;
+	background-color: #FF9900;
+	transition: 0.2s all ease-in-out;
+}
+
+.navbar-custom .navbar-nav > li > a:focus {
+	background-color: #FF9900;
+	color:#fff;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+	color:#fff;
+	cursor: default;
+}
+
+.navbar-custom button:hover {
+	background: #FF9900;
+	transition: 0.2s all ease-in-out;
+	color: #252628;
+}
+
+.navbar-custom .navbar-toggle .icon-bar { 
+	background-color: #fff; 
+}
+
+.news {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+
+.new {
+	background: #fff none repeat scroll 0 0;
+	height: auto;
+	overflow: hidden;
+	padding: 15px 15px;
+	position: relative;
+	text-align: center;
+	margin-bottom: 20px;
+	box-shadow:0 2px 3px rgba(0,0,0,0.15);
+}
+
+.new-img {
+	margin-bottom: 12px;
+	max-width: 400px; /* было 190 ширины*/
+	min-width: 190px;
+	box-sizing: border-box;
+	height: 220px;
+}
+.new-title a {
+	color: #000;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.new-title a:hover {
+	color: #FF9900;
+	cursor:default;
+	text-decoration: none;
+}
+
+.new-desc {
+	max-height: auto;
+	font-size: 14px;
+	overflow: hidden;
+	margin-bottom: 30px;
+	text-align: justify;
+}
+
+.new-publisher {
+	float: left;
+}
+
+.new-publisher i{
+	margin-right: 5px;
+}
+
+.new-date {
+	float: right;
+}
+
+.new-date i {
+	margin-right: 5px;
+}
+
